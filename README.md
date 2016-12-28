@@ -9,7 +9,18 @@ This site is generated offline with jekyll.
 bundle exec jekyll build
 ```
 
-It builds to the `docs` folder. GitHub Pages is configured to serve from this folder in the repo settings.
+It builds to the `docs` folder.
+
+GitHub Pages is setup to serve the site at [gh-pages-offline.tardate.com](http://gh-pages-offline.tardate.com/)
+from the docs folder (configured in the repo settings).
+
+A custom URL allows all internal links to be relative to the site root, so the site works fine when served on GitHub Pages
+and also when served locally with
+
+```
+bundle exec jekyll build
+```
+
 
 ## Posts
 <ul>
